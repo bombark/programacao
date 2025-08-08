@@ -25,11 +25,19 @@ def py_hexdump(variavel, nome=None):
 #  Main
 # ===================================================================
 
-num = 1
-lista = [ 1.0, 'felipe', 600 ]
-nome = lista[2]
+matriz = [
+    [5,6,7],
+    [10,10,10,10,10,10],
+    [31,32]
+]
 
-py_hexdump(lista[2], 'lista[2]')
+# 1.
+py_hexdump(matriz, 'matriz')
+py_hexdump(matriz[0], 'matriz[0]')
+py_hexdump(matriz[0][0], 'matriz[0][0] -> 5 : ')
 
-nome += 1
-py_hexdump(nome)
+# 2.
+# py_hexdump(matriz[1], 'matriz[1]')
+# py_hexdump(matriz[1][0], 'matriz[1][0] -> 10 : ')
+# py_hexdump(matriz[1][2], 'matriz[1][2] -> 10 : ')
+# py_hexdump(matriz[1][4], 'matriz[1][4] -> 10 : ')

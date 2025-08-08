@@ -7,7 +7,6 @@
 
 Requisitos da Aula:
 - Saber comandos de atribuiçao
-- Saber comandos de condição: IF
 - Saber comandos de repetição: While e For
 - Saber Iteradores
 - Saber Listas
@@ -21,23 +20,15 @@ Depois da Aula:
 - Poder iterar uma Matriz
 - Poder multiplicar Matrizes
 
-## 1. Matrizes Nativas em Python
+## 1a. Matrizes Nativas em Python
 
 ```python
-
-A = [
+matriz = [
     [16, 32, 64]
-    [16, 32, 64]
-    [16, 32, 64]
+    [17, 33, 65]
+    [18, 34, 66]
 ]
-
-# Virgula depois da lista é opcional
-
-
 ```
-
-
-
 
 ```
 Matriz A : 7792365acb40
@@ -51,19 +42,34 @@ Matriz A : 7792365acb40
 7792365acbb0  ff ff ff ff 00 00 00 00  c0 72 a4 00 00 00 00 00  |.........r......|
 ```
 
+## 1b. Exemplos
+
+- 1. Exemplos de instanciação de matrizes
+- 2. Exemplos de como iterar uma matriz
+- 3. Exemplos de como mostrar uma matriz
+- 4. Exemplos de acesso a matriz
 
 
+## 2a. Matrizes usando Numpy
+
+O principal motivo para a popularidade do NumPy é sua eficiência e velocidade, especialmente quando comparado às listas padrão do Python. O NumPy atinge essa performance por meio de seu objeto principal: o ndarray (N-dimensional array).
+
+Arrays Multidimensionais (ndarray): O ndarray é uma estrutura de dados de alta performance que armazena elementos do mesmo tipo de dado em um bloco de memória contíguo. Isso permite que o processador do seu computador acesse e processe os dados de forma muito mais rápida. Ao contrário de uma lista Python, onde cada elemento pode ser de um tipo diferente e estar espalhado na memória, um ndarray é otimizado para operações matemáticas.
+
+Operações Vetorizadas: O NumPy permite realizar operações matemáticas em arrays inteiros de uma vez, sem a necessidade de loops explícitos. Essa abordagem, conhecida como vetorização, é executada em código C/Fortran otimizado por baixo dos panos. Isso não apenas acelera drasticamente os cálculos, mas também torna o código mais limpo, conciso e fácil de ler.
+
+Ampla Gama de Funções Matemáticas: Além dos arrays, o NumPy oferece uma coleção vasta de funções matemáticas de alto nível para trabalhar com esses arrays, incluindo:
+
+- Álgebra Linear: Funções para produto de matrizes, cálculo de determinantes, autovalores e autovetores, resolução de sistemas de equações e muito mais.
+- Estatística: Funções para calcular média, mediana, desvio padrão, variância, etc.
+- Transformada de Fourier
+- Números Aleatórios
 
 
+## 2b. Exemplos
 
+- 1. Exemplos de instanciação de matrizes numpy
+- 2. Exemplos de como realizar operações sobre matrizes numpy
+- 3. Exemplos de como resolver sistemas de equações usando matrizes numpy
 
-
-
-
-# Materias Complementares
-
-- Aulas Youtube
-- Numpy
-- Matplot
--  
 
