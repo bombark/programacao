@@ -1,7 +1,6 @@
 ## Enunciado: Visualização de Áudio com Espectrograma de Mel
 
-![dispositivo](https://www.researchgate.net/profile/Tito_Spadini/publication/339434039/figure/fig9/AS:894087657947146@1590178517623/Figura-223-Exemplo-de-mel-espectrograma-de-um-sinal-de-voz-masculina-lendo-a-frase-The.png
-)
+![dispositivo](mel.png)
 
 Crie um programa em Python que converta um arquivo de áudio para uma representação visual chamada **espectrograma de Mel**. Esta técnica é comumente usada em processamento de sinais de áudio e aprendizado de máquina para extrair características relevantes do som, imitando a forma como o ouvido humano percebe o som.
 
