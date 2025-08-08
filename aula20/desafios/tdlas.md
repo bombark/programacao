@@ -1,5 +1,8 @@
 ## Enunciado: Análise de Concentração de $CO_2$ com Espectroscopia TDLAS
 
+![dispositivo](tdlas.png)
+
+
 Crie um programa em Python que realize a análise de uma linha de absorção de $CO_2$ obtida por um dispositivo **TDLAS (Tunable Diode Laser Absorption Spectroscopy)**. O objetivo é utilizar a técnica de ajuste de curva (`curve_fit`) para modelar o perfil espectral da linha de absorção e, a partir dos parâmetros do ajuste, determinar a concentração do gás.
 
 ---
@@ -25,6 +28,11 @@ O valor da concentração ($c$) é então obtido pela relação:
 $$c = k \cdot \text{Área}$$
 
 onde $k$ é uma constante de calibração que depende do dispositivo, da pressão e da temperatura. Para este exercício, você pode assumir um valor de $k = 50 \text{ ppm} \cdot \text{cm} \cdot \text{cm}^{-1}$.
+
+
+![curvefit](https://ars.els-cdn.com/content/image/1-s2.0-S0263224122012878-gr15.jpg)
+
+
 
 ### 2. Dados Fornecidos
 
@@ -59,3 +67,7 @@ Considere os seguintes dados de absorbância ($A$) medidos em função do númer
 * **Implementação do Perfil de Voigt:** Para um ajuste mais preciso, substitua a função gaussiana por uma função de perfil de Voigt, que é a convolução de um perfil gaussiano e um perfil de Lorentz.
 * **Adição de Ruído:** Adicione um ruído aleatório gaussiano aos dados de absorbância originais para simular dados experimentais mais realistas antes de realizar o ajuste.
 * **Análise de Incertesa:** Utilize a matriz de covariância retornada pelo `curve_fit` para calcular a incerteza dos parâmetros ajustados e propagá-la para estimar a incerteza na concentração final.
+
+
+## Material Complementar
+- https://analyticalscience.wiley.com/content/article-do/hydrogen-tdlas-industrial-safety-applications
