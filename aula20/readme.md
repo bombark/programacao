@@ -14,11 +14,12 @@ Requisitos da Aula:
 Depois da Aula:
 - Saber a organização de uma Matriz na Mémoria
   - Saber a diferença entre as Matrizes do Numpy e as Matrizes Nativas
-- Poder instanciar uma Matriz Nativa
-- Poder acessar e alterar valores de uma Matriz Nativa
+- Poder instanciar uma Matriz
+- Poder acessar e alterar valores de uma Matriz
 - Poder mostrar uma Matriz
 - Poder iterar uma Matriz
-- Poder multiplicar Matrizes
+- Poder realizar multiplicação matricial sobre Matrizes Numpy
+- Poder resolver sistemas de equação sobre Matrizes Numpy
 
 ## 1a. Matrizes Nativas em Python
 
@@ -44,10 +45,10 @@ Matriz A : 7792365acb40
 
 ## 1b. Exemplos
 
-- 1. Exemplos de instanciação de matrizes
-- 2. Exemplos de como iterar uma matriz
-- 3. Exemplos de como mostrar uma matriz
-- 4. Exemplos de acesso a matriz
+- Exemplos de instanciação de matrizes
+- Exemplos de como iterar uma matriz
+- Exemplos de como mostrar uma matriz
+- Exemplos de acesso a matriz
 
 
 ## 2a. Matrizes usando Numpy
@@ -68,8 +69,8 @@ Ampla Gama de Funções Matemáticas: Além dos arrays, o NumPy oferece uma cole
 
 ## 2b. Exemplos
 
-- 1. Exemplos de instanciação de matrizes numpy
-- 2. Exemplos de como realizar operações sobre matrizes numpy
-- 3. Exemplos de como resolver sistemas de equações usando matrizes numpy
+- Exemplos de instanciação de matrizes numpy
+- Exemplos de como realizar operações sobre matrizes numpy
+- Exemplos de como resolver sistemas de equações usando matrizes numpy
 
 
