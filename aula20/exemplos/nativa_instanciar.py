@@ -55,13 +55,6 @@ A = [
 # 8. Mostrar uma matriz
 print(A)
 
-
-# Instanciando usando laço de repetição na mesma linha
-linhas = 3
-colunas = 4
-matriz = [ [0 for _ in range(colunas) ] for _ in range(linhas) ]
-
-
 # =============================================================================
 # Possiveis Erros
 # =============================================================================
